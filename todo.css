@@ -1,0 +1,79 @@
+/* Import Dancing Script Font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/* Particle Background */
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    z-index: -1;
+}
+
+/* General Body Styling */
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* Add space between heading and input */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Centering input elements */
+.input-center {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    
+    margin: 20px auto; /* Added spacing between elements */
+}
+
+/* Input Field Styling */
+.input-group input {
+    font-size: 18px; /* Increased font size */
+    height: 45px; /* Increased height */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Task List Styling */
+#tasklist {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+}
+
+/* Ordered List Styling */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+/* List Item Styling */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px; /* Increased padding */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 22px; /* Increased font size */
+    font-family: 'Dancing Script', cursive; /* Apply Dancing Script Font */
+}
+
+/* Delete Button */
+.btn-outline-danger {
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
