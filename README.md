@@ -22,3 +22,9 @@ A simple and interactive To-Do List application built using HTML, CSS, JavaScrip
 1. **Clone the repository**  
    ```sh
    git clone https://github.com/your-username/todo-list-app.git
+   ## 🖼️ App Preview
+
+Here is a preview of the To-Do List App:
+
+![To-Do List App Screenshot](![Screenshot 2025-06-24 024626](https://github.com/user-attachments/assets/3b118d1f-f8bb-4f9e-87f0-c10056e47c83)
+)
